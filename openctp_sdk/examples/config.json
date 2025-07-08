@@ -1,0 +1,23 @@
+{
+  "market_data": {
+    "front_address": "tcp://180.168.146.187:10131",
+    "user_id": "",
+    "password": "",
+    "broker_id": "",
+    "instruments": ["au2406", "ag2406", "cu2406", "rb2406"],
+    "auto_reconnect": true
+  },
+  "trading": {
+    "front_address": "tcp://180.168.146.187:10130", 
+    "broker_id": "9999",
+    "user_id": "000001",
+    "password": "888888",
+    "app_id": "simnow_client_test",
+    "auth_code": "0000000000000000",
+    "auto_reconnect": true
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "openctp_sdk.log"
+  }
+}
